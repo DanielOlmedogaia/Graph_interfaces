@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>467</width>
-    <height>321</height>
+    <width>490</width>
+    <height>349</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,6 +38,9 @@
    <property name="text">
     <string>Chica</string>
    </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroupTAM</string>
+   </attribute>
   </widget>
   <widget class="QRadioButton" name="radioButtonMed">
    <property name="geometry">
@@ -51,6 +54,9 @@
    <property name="text">
     <string>Mediana</string>
    </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroupTAM</string>
+   </attribute>
   </widget>
   <widget class="QRadioButton" name="radioButtonGra">
    <property name="geometry">
@@ -64,6 +70,9 @@
    <property name="text">
     <string>Grande</string>
    </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroupTAM</string>
+   </attribute>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
@@ -90,6 +99,9 @@
    <property name="text">
     <string>Roja</string>
    </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroupCOLOR</string>
+   </attribute>
   </widget>
   <widget class="QRadioButton" name="radioButtonAzul">
    <property name="geometry">
@@ -103,6 +115,9 @@
    <property name="text">
     <string>Azul</string>
    </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroupCOLOR</string>
+   </attribute>
   </widget>
   <widget class="QRadioButton" name="radioButtonNegra">
    <property name="geometry">
@@ -116,8 +131,28 @@
    <property name="text">
     <string>Negra</string>
    </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroupCOLOR</string>
+   </attribute>
+  </widget>
+  <widget class="QLabel" name="labelOutput">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>290</y>
+     <width>321</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
   </widget>
  </widget>
  <resources/>
  <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroupTAM"/>
+  <buttongroup name="buttonGroupCOLOR"/>
+ </buttongroups>
 </ui>
