@@ -25,3 +25,10 @@ if __name__=="__main__":
     w=Ventana()
     w.show()
     sys.exit(app.exec_())
+#COMENTARIOS
+"""Note que el flujo se compone de la siguiente manera, la clase student tiene 2 atributos pero 
+estos aun no estan sefinidos sino que cada definicion se obtiene mas adelante cuando el metodo 
+'MuestraMensaje' instancía un objeto en base a lo que lee de lineEditeName y lineEditeCod,
+la clase Ventana emite una señal cauando es activado el boton y llama al metodo 'MuestraMensaje'
+y se realiza lo anteriormente explicado
+"""
